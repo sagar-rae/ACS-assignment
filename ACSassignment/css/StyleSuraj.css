@@ -1,0 +1,42 @@
+﻿#StrengthDisp {
+    position: absolute;
+    border-radius: 15px;
+    background-color: red;
+    color: white;
+    height: 21px;
+    width: 359px;
+    font-size: 13px;
+    text-align: center;
+    /* display: none; */
+}
+
+#error {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.remove {
+    display: none;
+}
+
+.show {
+    /* display:default;
+    display:block;*/
+    display: unset;
+}
+
+.field_error_wrapper {
+    transition: all 0.2s ease-in;
+}
+
+.meet_criteria {
+    color: #000 !important;
+}
+
+.password_criterian_wrapper {
+    margin-top: 30px;
+}
